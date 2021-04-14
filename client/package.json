@@ -9,6 +9,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "cleanup-create-react-app": "^1.0.4",
+    "jwt-decode": "^3.1.2",
     "mobx": "^6.2.0",
     "mobx-react-lite": "^3.2.0",
     "react": "^17.0.2",
