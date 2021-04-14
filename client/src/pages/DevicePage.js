@@ -49,12 +49,12 @@ const DevicePage = () => {
             }}
           >
             <h3>От: {device.price} руб.</h3>
-            <Button variant={'outline-dark'}>Enter to a basket</Button>
+            <Button variant={'outline-dark'}>Add to basket</Button>
           </Card>
         </Col>
       </Row>
       <Row className="d-flex flex-column m-3">
-        <h1>Features</h1>
+        <h1>Характеристики</h1>
         {device.info.map((info, index) => (
           <Row
             key={info.id}
